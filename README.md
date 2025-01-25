@@ -1,8 +1,75 @@
-# React + Vite
+# Router-DOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application bootstrapped with Vite. It serves as a template providing a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and some ESLint rules.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React with Vite**: Utilizes Vite for fast development and build processes.
+- **Hot Module Replacement (HMR)**: Enabled for efficient development.
+- **ESLint Configuration**: Includes basic ESLint rules for code quality.
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Vrushank2808/Router-DOM.git
+   cd Router-DOM
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000` (or another port if specified).
+
+## Project Structure
+
+- `public/`: Contains static assets.
+- `src/`: Contains the React components and application logic.
+- `.gitignore`: Specifies files to be ignored by Git.
+- `README.md`: Project documentation.
+- `eslint.config.js`: ESLint configuration.
+- `index.html`: Main HTML file.
+- `package-lock.json` & `package.json`: Node.js dependencies and scripts.
+- `vite.config.js`: Vite configuration.
+
+## Available Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run preview`: Previews the production build.
+- `npm run lint`: Runs ESLint to check for linting errors.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [ESLint](https://eslint.org/)
+```
